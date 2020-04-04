@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 // var unirest = require("unirest");
 
 // var req = unirest("GET", "https://wordsapiv1.p.rapidapi.com/words/hatchback/typeOf");
@@ -16,7 +14,6 @@
 	// console.log(res.body);
 // });
 
->>>>>>> e3d5f9e5195c114d53b44d1f6654a2d09355949f
 alert("Do you like Backend? ;)");
  
 //make search... disappear when clicked on
