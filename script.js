@@ -1,20 +1,18 @@
-<script src="p5.js"></script>
+// var unirest = require("unirest");
 
-var unirest = require("unirest");
+// var req = unirest("GET", "https://wordsapiv1.p.rapidapi.com/words/hatchback/typeOf");
 
-var req = unirest("GET", "https://wordsapiv1.p.rapidapi.com/words/hatchback/typeOf");
-
-req.headers({
-	"x-rapidapi-host": "wordsapiv1.p.rapidapi.com",
-	"x-rapidapi-key": "hhjqwm09form4unf0uttxmltra3vpnwtntrj3zi008sxl5mhr"
-});
+// req.headers({
+	// "x-rapidapi-host": "wordsapiv1.p.rapidapi.com",
+	// "x-rapidapi-key": "hhjqwm09form4unf0uttxmltra3vpnwtntrj3zi008sxl5mhr"
+// });
 
 
-req.end(function (res) {
-	if (res.error) throw new Error(res.error);
+// req.end(function (res) {
+	// if (res.error) throw new Error(res.error);
 
-	console.log(res.body);
-});
+	// console.log(res.body);
+// });
 
 alert("Do you like Backend? ;)");
  
