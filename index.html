@@ -1,11 +1,11 @@
-
 <!doctype html>
 <html>
   <head>
     <title>Learn New Words!</title>
+     
     <link rel="stylesheet" href="style.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
-    <script src="script.js"></script>
+
   </head>
   <body>
     <div class= "container">
@@ -14,47 +14,44 @@
         </i></div>
         <div class ="content">
           <h3> Search a word! </h3>
-          <p> Search to find new terms and add them to your word bank! 
-          </p>
+          
+<!-- Join go and search bar together (onblur is when you deselect an object) -->
+
+         <form action="search.php" method="post">
+          <input type="text" id="searchBar" placeholder="" value="search..." maxlength="28" autocomplete="on" onMouseDown="active();" onBlur="inactive" /><input type="submit" id="searchBtn" value="Go!"/>
         </div>
-      </div>
+      </div> 
+
+
          <div class= "box">
-        <div class= "icon"> <i class="fa fa-user" aria-hidden="true">
+        <div class= "icon"> <i class="fa fa-search" aria-hidden="true">
         </i></div>
         <div class ="content">
-          <h3> User</h3>
-<p> Click here to log in </p>
-<p>Click here to sign up </p>
+          <h3> Your word of the day!</h3>
+<p> Do you know your own words?  </p>
         </div>
       </div>
 
 
          <div class= "box">
         <div class= "icon"> 
-        <i class="fa fa-map-marker" aria-hidden="true">
+        <i class="fa fa-search" aria-hidden="true">
         </i></div>
         <div class ="content">
-          <h3> Location </h3>
-          <p> Click here to see how many people in your city have visited this site! 
-          </p>
+          <h3> Our word of the day </h3>
+          <p> Look me up! </p>
         </div>
       </div>
       </div>
-<!--first three boxes end here and i made a change--> 
-<!--   <div class= "container">
-      <div class= "box">
-        <div class= "icon"> <i class="fa fa-search" aria-hidden="true">
-        </i></div>
-        <div class ="content">
-          <h3> Search a word! </h3>
-          <p> Search to find new terms and add them to your word bank! 
-          </p> -->
+<!--first three boxes end here--> 
+
 <div class="container2">
 	<div class="box2">
 		 <div class= "icon"> <i class = "fa fa-user" aria-hidden="true"></i></div>
 <div class ="content">
 	<h3> User </h3>
-	<p> Click here to login <br> Clike here to signup </p>
+	<p> Click here to login </p> 
+ <p> Clike here to signup </p>
 </div>
 		<div class="userLogin"> </div> 
 	</div>
@@ -64,31 +61,15 @@
 <h3> Location </h3>
 <p> Click here to see how many people in your city have visited this site! </p>
 	</div>
-	</div> 
+	</div>
+
 </body>
 
+<footer>
+	<script src="script.js"></script>
+</footer>
     <!--
-  	<UL>
-  		<li> new word of the day! </li>
-  			<li> practise word of the day </li>
-  			<li> your list of words </li>
-  		</UL>
-  </div>
-  	<center>
-      <article>
-        <p> New Word of the Day! </p>
-      </article>
-</center>
 <script>
-  script src="js/main.js"></script>
-</script>
 I followed the tutorial here: https://www.youtube.com/watch?v=IFai8qTKvEM
 	https://fontawesome.com/icons/map-marker-alt?style=solid -->
 </html>
-
-<!--
-      |\      _,,,---,,_
-ZZZzz /,`.-'`'    -.  ;-;;,_
-     |,4-  ) )-,_. ,\ (  `'-'
-    '---''(_/--'  `-'\_)
--->
