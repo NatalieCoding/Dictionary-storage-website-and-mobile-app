@@ -1,3 +1,5 @@
+//give user alert 
+alert("Do you want to learn new words?");
 //make search... disappear when clicked on
 function active()
 {
