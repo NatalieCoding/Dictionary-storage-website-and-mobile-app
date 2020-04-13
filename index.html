@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
 
+
   </head>
   <body>
     <div class= "container">
@@ -13,12 +14,14 @@
         <div class= "icon"> <i class="fa fa-search" aria-hidden="true">
         </i></div>
         <div class ="content">
-          <h3> Search a word! </h3>
+          <h3 title="Search any word you don't know!"> Search a word! </h3>
           
 <!-- Join go and search bar together (onblur is when you deselect an object) -->
-
-         <form action="https://www.wordnik.com/words/hello" method="post">
-          <input type="text" id="searchBar" placeholder="" value="search..." maxlength="28" autocomplete="on" onMouseDown="active();" onBlur="inactive" /><input type="submit" id="searchBtn" value="Go!"/>
+<!-- I am not sure how action works or how to implement an api with this property
+I AM CONFUSED :O -->
+		
+         <form action="https://www.wordnik.com/" method="post">
+          <input type="text" id="searchBar" placeholder="" value="Search your word..." maxlength="45" autocomplete="off" onMouseDown="active();" onBlur="inactive" /><input type="submit" id="searchBtn" value="Go!"/>
         </div>
       </div> 
 
@@ -45,6 +48,7 @@
       </div>
 <!--first three boxes end here--> 
 
+<!-- Login and Signup box-->
 <div class="container2">
 	<div class="box2">
 		 <div class= "icon"> <i class = "fa fa-user" aria-hidden="true"></i></div>
@@ -54,7 +58,10 @@
  <p> Clike here to signup </p>
 </div>
 		<div class="userLogin"> </div> 
+
 	</div>
+
+	<!-- Location-->
 	<div class="box2"> 
 	<div class= "icon"> <i class="fa fa-map-marker"></i></div>
  <div class ="content">
